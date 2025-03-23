@@ -22,8 +22,8 @@ if __name__ == "__main__":
         test_pairs.apply(tuple, axis=1))
     ]
 
-    train_set.to_csv("calcs_train_split.csv", index=None)
-    test_set.to_csv("calcs_test_split.csv", index=None)
+    train_set.to_csv("data/calcs_train_split.csv", index=None)
+    test_set.to_csv("data/calcs_test_split.csv", index=None)
 
     print(f"Train set shape: {train_set.shape}")
     print(f"Test set shape: {test_set.shape}")
